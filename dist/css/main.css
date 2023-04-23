@@ -26,7 +26,38 @@ nav div .nav .ul-list {
 }
 nav div .nav .ul-list li {
   list-style: none;
-  padding: 15px;
+  padding: 10px;
+}
+nav div .nav .ul-list li .two {
+  left: 10rem;
+  width: 245px;
+  padding: 10px;
+  min-height: 260px;
+  margin-top: 21px;
+  background-color: #ffa500;
+}
+nav div .nav .ul-list li .three {
+  left: 25rem;
+  width: 245px;
+  padding: 10px;
+  min-height: 260px;
+  margin-top: 21px;
+  background-color: #ffa500;
+}
+nav div .nav .ul-list li .one {
+  left: -5rem;
+  width: 245px;
+  padding: 10px;
+  min-height: 260px;
+  margin-top: 21px;
+  background-color: #ffa500;
+}
+nav div .nav .ul-list li div h3 {
+  color: #00f;
+}
+nav div .nav .ul-list li div {
+  position: absolute;
+  display: none;
 }
 nav div .nav .ul-list li a {
   color: #fff;
@@ -57,4 +88,28 @@ nav div .log-sign button {
 nav div .log-sign button:hover {
   color: orange;
   background-color: #fff;
+}
+
+#search {
+  padding-left: 10px;
+}
+
+nav div .nav .ul-list li:hover div {
+  position: absolute;
+  display: block;
+}
+
+.sub-menu {
+  background-color: red;
+}
+.sub-menu div ul li {
+  padding: 15px;
+}
+
+.ul-list li a {
+  padding: 21px 8px;
+}
+
+.sub-menu div ul li:hover {
+  background-color: #00f;
 }/*# sourceMappingURL=main.css.map */
