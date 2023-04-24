@@ -7,7 +7,7 @@
 body {
   color: #fff;
   background-color: #000;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   margin: 0 1rem 0 1rem;
   height: 150vh;
@@ -42,9 +42,9 @@ nav div .nav .ul-list li .two {
   left: 10rem;
   width: 245px;
   padding: 10px;
-  min-height: 260px;
+  min-height: 274px;
   margin-top: 21px;
-  background-color: #ffa500;
+  background-color: #201e1e;
 }
 nav div .nav .ul-list li .three {
   left: 25rem;
@@ -52,7 +52,9 @@ nav div .nav .ul-list li .three {
   padding: 10px;
   min-height: 260px;
   margin-top: 21px;
-  background-color: #ffa500;
+  background-color: #201e1e;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 nav div .nav .ul-list li .one {
   left: -5rem;
@@ -60,13 +62,15 @@ nav div .nav .ul-list li .one {
   padding: 10px;
   min-height: 260px;
   margin-top: 21px;
-  background-color: #ffa500;
+  background-color: #201e1e;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 nav div .nav .ul-list li div h3 {
   color: #00f;
+  margin: 15px;
 }
 nav div .nav .ul-list li div {
-  box-shadow: 1px 1px 5px #fff;
   position: absolute;
   display: none;
 }
@@ -76,6 +80,9 @@ nav div .nav .ul-list li a {
 }
 nav div .nav .ul-list li a:hover {
   color: #ffa500;
+}
+nav div .nav .ul-list li a:hover i:hover {
+  transform: rotate(180deg);
 }
 nav div .log-sign div {
   padding: 15px;
@@ -121,10 +128,9 @@ nav div .nav .ul-list li:hover div {
   padding: 21px 8px;
 }
 
-.sub-menu div ul li:hover {
-  background-color: #00f;
-}
-
+/* .sub-menu div ul li:hover{
+    background-color: #00f;
+} */
 /* SOCIAL */
 .social {
   margin: 1rem 0 0 0;
