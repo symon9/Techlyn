@@ -88,8 +88,10 @@ nav div .log-sign div {
   padding: 15px;
 }
 nav div .log-sign div #search {
+  outline: none;
+  border: 0;
   width: 320px;
-  height: 29px;
+  height: 30px;
   border-radius: 15px;
   border-width: 0;
   margin-right: 4px;
@@ -128,9 +130,6 @@ nav div .nav .ul-list li:hover div {
   padding: 21px 8px;
 }
 
-/* .sub-menu div ul li:hover{
-    background-color: #00f;
-} */
 /* SOCIAL */
 .social {
   margin: 1rem 0 0 0;
@@ -140,7 +139,7 @@ nav div .nav .ul-list li:hover div {
   transform: translateY(50%);
   position: fixed;
   right: 12px;
-  z-index: 100;
+  z-index: 1000;
 }
 .social .social-container {
   display: flex;
@@ -161,4 +160,57 @@ nav div .nav .ul-list li:hover div {
   height: 50px;
   background-color: #ffa500;
   margin-top: 2px;
+}
+
+.fa-magnifying-glass {
+  cursor: pointer;
+}
+
+/* hero */
+.main .main-container {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-container .sub-main {
+  min-width: 300px;
+  min-height: 200px;
+  text-align: center;
+}
+.main .main-container .sub-main-one {
+  background-color: #fff;
+}
+.main .main-container .sub-main-two {
+  background-color: rgba(0, 0, 255, 0);
+  padding: 3rem 0 1.5em 0;
+  width: 700px;
+}
+.main .main-container .sub-main-two h1 {
+  width: 700px;
+  text-align: center;
+  font-size: 45px;
+}
+.main .main-container .sub-main-two h1 span {
+  background-color: orange;
+  padding: 3px;
+  border-radius: 3px;
+}
+.main .main-container .sub-main-two p {
+  width: 700px;
+  padding-top: 20px;
+}
+.main .main-container .sub-main-three {
+  background-color: #00ff00;
+}
+.main .main-container .sub-main-four {
+  background-color: aqua;
+}
+.main .main-container .sub-main-five {
+  background-color: brown;
+  padding: 10px;
+}
+.main .main-container .sub-main-six {
+  background-color: saddlebrown;
 }/*# sourceMappingURL=main.css.map */

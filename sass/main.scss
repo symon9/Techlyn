@@ -97,13 +97,18 @@ nav{
                 div{
                     padding: 15px;
 
-                    #search{
+                    
+
+                    #search{outline: none;
+                        border: 0;
                         width: 320px;
-                        height: 29px;
+                        height: 30px;
                         border-radius: 15px;
                         border-width: 0;
                         margin-right: 4px;
+                        
                     }
+                        
                 }
                 button{
                     margin: 15px;
@@ -145,10 +150,6 @@ nav div .nav .ul-list li:hover div {
     padding: 21px 8px;
 }
 
-/* .sub-menu div ul li:hover{
-    background-color: #00f;
-} */
-
 /* SOCIAL */
 
 .social{
@@ -159,7 +160,7 @@ nav div .nav .ul-list li:hover div {
     transform: translateY(50%);
     position: fixed;
     right: 12px;
-    z-index: 100;
+    z-index: 1000;
     .social-container{
         display: flex;
         flex-direction: column;
@@ -180,5 +181,61 @@ nav div .nav .ul-list li:hover div {
             background-color: #ffa500;
             margin-top: 2px;
         }
+    }
+}
+.fa-magnifying-glass{
+    cursor: pointer;
+}
+
+/* hero */
+.main{
+    .main-container{
+        padding: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+            .sub-main{
+                min-width: 300px;
+                min-height: 200px;
+                text-align: center;
+
+            }
+            .sub-main-one{
+                background-color: #fff;
+            }
+            .sub-main-two{
+                background-color: rgb(0, 0, 255,0);
+                padding: 3rem 0 1.5em 0;
+                width: 700px;
+
+                    h1{
+                        width: 700px;
+                        text-align: center;
+                        font-size: 45px;
+
+                            span{
+                                background-color: orange; padding: 3px; border-radius: 3px;
+                            }
+                    }
+                    p{
+                        width: 700px;
+                        padding-top: 20px;
+                    }
+            }
+            .sub-main-three{
+                background-color: #00ff00;
+            }
+            .sub-main-four{
+                background-color: aqua;
+            }
+            .sub-main-five{
+                background-color: brown;
+                padding: 10px;
+            }
+            .sub-main-six{
+                background-color: saddlebrown;
+            }
     }
 }
