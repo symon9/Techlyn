@@ -7,7 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     margin: 0 1rem 0 1rem;  
-    height: 150vh;  
+    min-height: 150vh;  
 }
 .div-container{
     background-color: #000000;
@@ -37,32 +37,85 @@ nav{
                             list-style: none;
                             padding: 10px;
                             .two{
-                                left: 10rem;
-                                width: 245px;
+                                left: 0rem;
+                                width: 320px;
                                 padding: 10px;
                                     min-height: 274px;
                                     margin-top: 21px;
                                     background-color: #201e1e;
+
+                                    ul{
+                                        li{
+                                            padding: 16px 0;
+                                            a{
+                                                font-size: 15px;
+                                            }
+                                        }
+                                        li:hover{
+                                                transform: scale(1.2);
+                                            }
+                                    }
                             }
                             .three{
-                                left: 25rem;
-                                width: 245px;
+                                left: 18rem;
+                                width: 320px;
+                                padding: 10px;
+                                    min-height: 260px;
+                                    margin-top: 21px;
+                                    background-color: #201e1e;
+                                    ul{
+                                        li{
+                                            padding: 16px 0;
+                                            a{
+                                                font-size: 15px;
+                                            }
+                                        }
+                                        li:hover{
+                                            transform: scale(1.2);
+                                        }
+                                    }
+                            }
+                            .four{ z-index: 5;
+                                left: 36rem;
+                                width: 320px;
                                 padding: 10px;
                                     min-height: 260px;
                                     margin-top: 21px;
                                     background-color: #201e1e;
                                     border-top-right-radius: 15px;
                                     border-bottom-right-radius: 15px;
+                                    ul{
+                                        li{
+                                            padding: 16px 0;
+                                            a{
+                                                font-size: 15px;
+                                            }
+                                        }
+                                        li:hover{
+                                            transform: scale(1.2);
+                                        }
+                                    }
                             }
                             .one{
-                                left: -5rem;
-                                width: 245px;
+                                left: -18rem;
+                                width: 320px;
                                 padding: 10px;
                                     min-height: 260px;
                                     margin-top: 21px;
                                     background-color: #201e1e;
                                     border-top-left-radius: 15px;
                                     border-bottom-left-radius: 15px;
+                                    ul{
+                                        li{
+                                            padding: 16px 0;
+                                            a{
+                                                font-size: 15px;
+                                            }
+                                        }
+                                        li:hover{
+                                            transform: scale(1.2);
+                                        }
+                                    }
                             }
 
                                 div{
@@ -203,7 +256,7 @@ nav div .nav .ul-list li:hover div {
 
             }
             .sub-main-one{
-                background-color: #fff;
+                /* background-color: #fff; */
             }
             .sub-main-two{
                 background-color: rgb(0, 0, 255,0);
@@ -214,9 +267,56 @@ nav div .nav .ul-list li:hover div {
                         width: 700px;
                         text-align: center;
                         font-size: 45px;
-
+                        
                             span{
-                                background-color: orange; padding: 3px; border-radius: 3px;
+                                background-color: orange; 
+                                padding: 3px; 
+                                border-radius: 3px;
+                                display: inline-block;
+                                transform: skew(159deg);
+                                text-shadow: 2px 2px 2px #000;
+                                box-shadow: 2px 2px 3px #fff;
+                            }
+                            .online{
+                                animation: pulse 15s infinite;
+                            }
+                            @keyframes pulse {
+                                0%{
+                                    color: #051e3e;
+                                }
+                                10%{
+                                    color: #051e3e;
+                                }
+                                30%{
+                                    color: #FFF;
+                                }
+                                50%{
+                                    color: #051e3e;
+                                }
+                                60%{
+                                    color: #051e3e;
+                                }
+                                80%{
+                                    color: #FFF;
+                                }
+                                100%{
+                                    color: #051e3e;
+                                }
+                            }
+                            .online:after{
+                                content: "";
+                                animation: spin 15s infinite;
+                            }
+                            @keyframes spin {
+                                0%{
+                                    content: "ONLINE.";
+                                }
+                                40%{
+                                    content: "ONLINE.";
+                                }
+                                100%{
+                                    content: "WORLDWIDE.";
+                                }
                             }
                     }
                     p{
@@ -225,17 +325,82 @@ nav div .nav .ul-list li:hover div {
                     }
             }
             .sub-main-three{
-                background-color: #00ff00;
+               /*  background-color: #00ff00; */
             }
             .sub-main-four{
-                background-color: aqua;
+                /* background-color: aqua; */
             }
             .sub-main-five{
-                background-color: brown;
+                background-color: rgba(165, 42, 42, 0);
                 padding: 10px;
+                .call-to-action{
+                    text-align: center;
+                }
             }
             .sub-main-six{
-                background-color: saddlebrown;
+                /* background-color: saddlebrown; */
             }
     }
+}
+
+/* input and social */
+.sub-main-five{
+    .input-btn{
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+            margin: 5px 0 5px 5px;
+            width: 300px;
+            height: 35px;
+            outline: none;
+            border: 0;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+            padding-left: 15px;
+        }
+        button{
+            
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            font-size: 1rem;
+            padding: 5px;
+            height: 35px;
+            cursor: pointer;
+            color: #fff;
+            border: 3px solid orange;
+            background-image: linear-gradient(30deg, orange 50% , transparent 50%);
+            background-size: 500px;
+            background-repeat: no-repeat;
+            background-position:  0;
+            transition: background 300ms ease-in-out;
+        }
+        button:hover{
+            background-position: 100%;
+            color: orange;
+            background-color: #fff;
+        }
+    }
+}
+
+/* about-sub-menu */
+.about-sub-menu{
+                                width: 170px;
+                                padding: 10px;
+                                    min-height: 100px;
+                                    margin-top: 21px;
+                                    background-color: #201e1e;
+                                    border-radius: 15px;
+                                    ul{
+                                        li{
+                                            padding: 16px 0;
+                                            a{
+                                                font-size: 18px;
+                                            }
+                                        }
+                                        li:hover{
+                                            transform: scale(1.2);
+                                        }
+                                    }
 }
