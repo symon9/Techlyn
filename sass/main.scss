@@ -256,10 +256,16 @@ nav div .nav .ul-list li:hover div {
 
             }
             .sub-main-one{
-                /* background-color: #fff; */
+                background-color: #ffffff00;
+                position: relative;
+                img{
+                    position: absolute;
+                    left: 50px;
+                    bottom: -230px;
+                }
             }
             .sub-main-two{
-                background-color: rgb(0, 0, 255,0);
+                background-color: rgba(0, 0, 255, 0);
                 padding: 3rem 0 1.5em 0;
                 width: 700px;
 
@@ -325,10 +331,22 @@ nav div .nav .ul-list li:hover div {
                     }
             }
             .sub-main-three{
-               /*  background-color: #00ff00; */
+                background-color: #00ff0000;
+                position: relative;
+                img{
+                    position: absolute;
+                    left: -20px;
+                    top: -80px;
+                }
             }
             .sub-main-four{
-                /* background-color: aqua; */
+                background-color: rgba(0, 255, 255, 0);
+                position: relative;
+                img{
+                    position: absolute;
+                    left: 0;
+                    bottom: -150px;
+                }
             }
             .sub-main-five{
                 background-color: rgba(165, 42, 42, 0);
@@ -336,9 +354,21 @@ nav div .nav .ul-list li:hover div {
                 .call-to-action{
                     text-align: center;
                 }
+                .phone-img{
+                    img{
+                        /* width: 130%;
+                        height: 130%; */
+                    }
+                }
             }
             .sub-main-six{
-                /* background-color: saddlebrown; */
+                background-color: rgba(139, 69, 19, 0);
+                position: relative;
+                img{
+                    position: absolute;
+                    left: -10px;
+                    top: -150px;
+                }
             }
     }
 }
@@ -403,4 +433,10 @@ nav div .nav .ul-list li:hover div {
                                             transform: scale(1.2);
                                         }
                                     }
+}
+.main-container{
+    position: relative;
+}
+.sub-main-three{
+    
 }

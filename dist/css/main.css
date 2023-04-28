@@ -225,7 +225,13 @@ nav div .nav .ul-list li:hover div {
   text-align: center;
 }
 .main .main-container .sub-main-one {
-  /* background-color: #fff; */
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+}
+.main .main-container .sub-main-one img {
+  position: absolute;
+  left: 50px;
+  bottom: -230px;
 }
 .main .main-container .sub-main-two {
   background-color: rgba(0, 0, 255, 0);
@@ -292,10 +298,22 @@ nav div .nav .ul-list li:hover div {
   padding-top: 20px;
 }
 .main .main-container .sub-main-three {
-  /*  background-color: #00ff00; */
+  background-color: rgba(0, 255, 0, 0);
+  position: relative;
+}
+.main .main-container .sub-main-three img {
+  position: absolute;
+  left: -20px;
+  top: -80px;
 }
 .main .main-container .sub-main-four {
-  /* background-color: aqua; */
+  background-color: rgba(0, 255, 255, 0);
+  position: relative;
+}
+.main .main-container .sub-main-four img {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
 }
 .main .main-container .sub-main-five {
   background-color: rgba(165, 42, 42, 0);
@@ -304,8 +322,18 @@ nav div .nav .ul-list li:hover div {
 .main .main-container .sub-main-five .call-to-action {
   text-align: center;
 }
+.main .main-container .sub-main-five .phone-img img {
+  /* width: 130%;
+  height: 130%; */
+}
 .main .main-container .sub-main-six {
-  /* background-color: saddlebrown; */
+  background-color: rgba(139, 69, 19, 0);
+  position: relative;
+}
+.main .main-container .sub-main-six img {
+  position: absolute;
+  left: -10px;
+  top: -150px;
 }
 
 /* input and social */
@@ -363,4 +391,8 @@ nav div .nav .ul-list li:hover div {
 }
 .about-sub-menu ul li:hover {
   transform: scale(1.2);
+}
+
+.main-container {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
