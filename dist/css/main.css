@@ -5,11 +5,14 @@
 }
 
 body {
+  /* 
+  WIDTH OF THE PAGE: 1408PX;
+  */
   color: #fff;
   background-color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 17px;
-  margin: 0 1rem 0 1rem;
+  margin: 0 0rem 0 0rem;
   min-height: 150vh;
 }
 
@@ -230,7 +233,7 @@ nav div .nav .ul-list li:hover div {
 }
 .main .main-container .sub-main-one img {
   position: absolute;
-  left: 50px;
+  left: 10px;
   bottom: -230px;
 }
 .main .main-container .sub-main-two {
@@ -395,4 +398,82 @@ nav div .nav .ul-list li:hover div {
 
 .main-container {
   position: relative;
+}
+
+/* SERVICES */
+.services {
+  color: #000;
+  background-color: orange;
+  padding: 3rem;
+  border-top-left-radius: 100px;
+}
+.services div .head-container h1 {
+  font-size: 2.5rem;
+}
+.services div .head-container h1 span {
+  background-color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  padding: 2px;
+}
+.services div .head-container .dsc {
+  padding: 14px 0 8px 0;
+}
+.services div .head-container .div-btn {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 3px;
+  background-color: rgb(230, 150, 2);
+  border: 3px solid #fff;
+  border-radius: 25px;
+  width: 190px;
+  text-align: center;
+}
+.services div .head-container .div-btn .out {
+  background-color: #FFF;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.services div .head-container .div-btn .out .in {
+  background-color: #00f;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+.services div .head-container .div-btn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+.services div .head-container .div-btn:hover {
+  background-color: transparent;
+}
+.services div .sub-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.services div .sub-container .sub-con-first .web-container, .services div .sub-container .sub-con-first .software-container {
+  padding: 10px 0;
+}
+.services div .sub-container .sub-con-first .web-container i, .services div .sub-container .sub-con-first .software-container i {
+  margin: 10px 0;
+}
+.services div .sub-container .sub-con-first .web-container h3, .services div .sub-container .sub-con-first .software-container h3 {
+  padding: 8px 0;
+}
+.services div .sub-container .sub-con-second .mobile-app-container, .services div .sub-container .sub-con-second .cloud-container {
+  padding: 10px 0;
+}
+.services div .sub-container .sub-con-second .mobile-app-container i, .services div .sub-container .sub-con-second .cloud-container i {
+  margin: 10px 0;
+}
+.services div .sub-container .sub-con-second .mobile-app-container h3, .services div .sub-container .sub-con-second .cloud-container h3 {
+  padding: 8px 0;
+}
+
+.fa-globe, .fa-laptop-code, .fa-mobile-screen, .fa-cloud {
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */
