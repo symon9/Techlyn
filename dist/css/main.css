@@ -656,4 +656,80 @@ body::-webkit-scrollbar-thumb {
 /* body{
     scrollbar-width: thin;
     scrollbar-color: black transparent;
-} *//*# sourceMappingURL=main.css.map */
+} */
+/* appointment form */
+.appointment-container .appointment-main-con {
+  padding: 3rem;
+  background-color: orange;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.appointment-container .appointment-main-con .appointment-head h2 {
+  font-size: 35px;
+  text-align: right;
+  width: 1000px;
+}
+.appointment-container .appointment-main-con .appointment-head h2 span {
+  background-color: #fff;
+  padding: 0 3px;
+}
+.appointment-container .appointment-main-con .appointment-form-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form {
+  width: 500px;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form {
+  display: flex;
+  flex-direction: column;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form h3 {
+  padding: 12px 0;
+  font-size: 23px;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form label {
+  padding: 3px 0;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form input, .appointment-container .appointment-main-con .appointment-form-img .appointment-form form textarea {
+  background-color: aliceblue;
+  border: 0;
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form input {
+  padding: 9px;
+  outline: none;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form textarea {
+  padding: 9px;
+  outline: none;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form button {
+  margin-top: 12px;
+  width: 180px;
+  border-width: 0;
+  background-color: transparent;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form button a {
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  color: #fff;
+  background-color: #000;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-form form button a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.appointment-container .appointment-main-con .appointment-form-img .appointment-img-con {
+  background-image: url("../img/3d-female-character-working-laptop-while-sitting-chair.png");
+  background-size: cover;
+  width: 500px;
+}/*# sourceMappingURL=main.css.map */

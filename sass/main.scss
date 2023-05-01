@@ -724,3 +724,86 @@ body::-webkit-scrollbar-thumb{
     scrollbar-color: black transparent;
 } */
 
+/* appointment form */
+.appointment-container{
+    .appointment-main-con{
+        padding: 3rem;
+        background-color: orange;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .appointment-head{
+            h2{
+                font-size: 35px;
+                text-align: right;
+                width: 1000px;
+                    span{
+                        background-color: #fff;
+                        padding: 0 3px;
+                    }
+            }
+        }
+        .appointment-form-img{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 3rem;
+            .appointment-form{
+                width: 500px;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                        h3{
+                            padding: 12px 0;
+                            font-size: 23px;
+                        }
+                        label{
+                            padding: 3px 0;
+                        }
+                        input,textarea{
+                            background-color: aliceblue;
+                            border: 0;
+                            margin-bottom: 12px ;
+                            border-radius: 3px;
+                        }
+                        input{
+                            padding: 9px;
+                            outline: none;
+                        }
+                        textarea{
+                            padding: 9px ;
+                            outline: none;
+                        }
+                        button{margin-top: 12px;
+                            width: 180px;
+                            border-width: 0;
+                            background-color: transparent;
+                            a{
+                                border-radius: 10px;
+                                text-decoration: none;
+                                letter-spacing: 1px;
+                                padding: 12px 10px;
+                                color: #fff;
+                                background-color: #000;
+                            }
+                        }
+                        button a:hover{
+                            background-color: #fff;
+                            color: #000;
+                        }
+                }
+            }
+            .appointment-img-con{
+                background-image: url("../img/3d-female-character-working-laptop-while-sitting-chair.png");
+                    background-size: cover;
+                    width: 500px;
+                
+                .appointment-img{
+                                        
+                }
+            }
+        }
+    }
+}
