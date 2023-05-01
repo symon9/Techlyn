@@ -3,14 +3,14 @@
 
 body{
     /* 
-    WIDTH OF THE PAGE: 1408PX;
+    WIDTH OF THE PAGE: 1408PX /  1349px;
     */
     color: #fff;
     background-color: #000;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     margin: 0 0rem 0 0rem;  
-    min-height: 150vh;  
+    min-height: 150vh;
 }
 .div-container{
     background-color: #000000;
@@ -447,8 +447,17 @@ nav div .nav .ul-list li:hover div {
     background-color: orange;
     padding: 3rem;
     border-top-left-radius: 100px;
+    display: flex;
+    justify-content: center;
     div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         .head-container{
+            display: flex;
+            justify-content: center;
+            max-width: 1300px;
+            flex-direction: column;
             h1{
             font-size: 2.5rem;
                 span{
@@ -498,6 +507,7 @@ nav div .nav .ul-list li:hover div {
             display: flex;
             flex-direction: row;
             gap: 2rem;
+            justify-content: center;
             .sub-con-first{
                 .web-container, .software-container{
                     padding: 10px 0;
@@ -506,6 +516,17 @@ nav div .nav .ul-list li:hover div {
                     }
                         h3{
                             padding: 8px 0;
+
+                                a{
+                                    text-decoration: none;
+                                    color: #000000;
+                                }
+                                a:hover{
+                                    color: #FFF;
+                                }
+                        }
+                        p{
+                            width: 630px;
                         }
                 }
             }
@@ -515,9 +536,20 @@ nav div .nav .ul-list li:hover div {
                     i{
                         margin: 10px 0 ;
                     }
-                        h3{
-                            padding: 8px 0;
-                        }
+                    h3{
+                        padding: 8px 0;
+
+                            a{
+                                text-decoration: none;
+                                color: #000000;
+                            }
+                            a:hover{
+                                color: #FFF;
+                            }
+                    }
+                    p{
+                        width: 630px;
+                    }
                 }
             }
         }
@@ -526,3 +558,169 @@ nav div .nav .ul-list li:hover div {
 .fa-globe, .fa-laptop-code, .fa-mobile-screen, .fa-cloud{
     padding: 5px;
 }
+.web-container p:hover, .software-container p:hover, .mobile-app-container p:hover, .cloud-container p:hover{
+    color: #252525;
+}
+
+/* BEGIN WHY WE ARE DIFFERENT  */
+.different{
+
+    .diff-con{
+        padding: 3rem;
+        color: #FFF;
+        .diff-head{
+            text-align: center;
+            font-size: 28px;
+            padding: 1rem;
+        }
+        .different-main{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+
+                .diff-sub-one{
+                    .diff-desc-one{
+                        h3{
+                            font-size: 25px;
+                            padding: 10px 0;
+                                span{
+                                    color: #ffa500;
+                                    font-size: 35px;
+                                }
+                        }
+                        p{
+                            padding: 10px 0;
+                            width: 550px;  
+
+                        }
+                        
+                    }
+                    .diff-desc-two{
+                        h3{
+                            font-size: 25px;
+                            padding: 10px 0;
+                            span{
+                                color: #ffa500;
+                                font-size: 35px;
+                            }
+                        }
+                        p{
+                            padding: 10px 0;
+                            width: 550px;                            
+                        }
+                    }
+                }
+                .diff-sub-two{
+                    .diff-desc-one{
+                        h3{
+                            font-size: 25px;
+                            padding: 10px 0;
+                            span{
+                                color: #ffa500;
+                                font-size: 35px;
+                            }
+                        }
+                        p{
+                            padding: 10px 0;
+                            width: 550px;  
+                            
+                        }
+                    }
+                    .diff-desc-two{
+                        h3{
+                            font-size: 25px;
+                            padding: 10px 0;
+                            span{
+                                color: #ffa500;
+                                font-size: 35px;
+                            }
+                        }
+                        p{
+                            padding: 10px 0;
+                            width: 550px;  
+                            
+                        }
+                    }
+                }
+        }
+    }
+}
+.diff-desc-one p, .diff-desc-two p{
+    color: #525151;
+}
+.diff-desc-one p:hover, .diff-desc-two p:hover{
+    color: #838383;
+}
+/* END WHY WE ARE DIFFERENT  */
+
+/* Acheive your website's full potential */
+.acheive-ur-web{
+    .web-container{
+        background-color: #FFF;
+        color: #000;
+        padding: 3rem;
+        /* border-top-right-radius: 100px; */
+            .web-main-con{
+                display: flex;
+                gap: 4rem;
+                justify-content: center;
+
+                .web-img{
+                    background-color: rgb(0, 255, 0);
+                    width: 500px;
+                    height: 500px;
+                }
+                .web-desc{
+                    width: 500px;
+
+                    h2{
+                        font-size: 35px;
+                        padding: 1rem 0;
+                            span{
+                                color: orange;
+                                font-size: 45px;
+                            }
+                    }
+                    p{
+                        padding: 10px 0;
+                        word-spacing: 3px;
+                        letter-spacing: 2px;
+                    }
+                    button{
+                        margin: 1rem 0;
+                        padding: 12px 0 ;
+                        background-color: #fff;
+                        a{
+                            
+                        padding: 12px ;
+                            text-decoration: none;
+                            color: #000;
+                            letter-spacing: 2px;
+                        }
+                    }
+                    button a:hover{
+                        background-color: #000;
+                        color: #fff;
+                    }
+                }
+            }
+    }
+}
+
+/* SCROLL BAR EDITED */
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-track{
+    background:transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#fff;
+    border-radius: 20px;
+}
+/* body{
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+} */
+
