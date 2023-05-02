@@ -807,3 +807,46 @@ body::-webkit-scrollbar-thumb{
         }
     }
 }
+
+/* FAQ Section */
+.faq{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+    .faq-container{
+        position: relative;
+        color: #000;
+        padding: 3rem;
+        width: 1250px;
+        .faq-head{
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 18px;
+                padding:10px 0 20px 0;
+
+                a{
+                    color: #ffa500;
+                }
+            }
+        }
+        .faq-questions{
+            details{
+                padding: 1.7rem 0;
+                    summary{
+                        letter-spacing: 1px;
+                    }
+                    summary:hover{
+                        color: #ffa500;
+                    }
+
+                    p{
+                        padding: 15px;
+                    }
+            }
+        }
+    }
+}
+
