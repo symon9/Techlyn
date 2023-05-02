@@ -766,4 +766,160 @@ body::-webkit-scrollbar-thumb {
 }
 .faq .faq-container .faq-questions details p {
   padding: 15px;
+}
+
+/* transition on element */
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+/* faq transition */
+.faq-questions details:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.faq-questions details:nth-child(2) {
+  transition-delay: 400ms;
+}
+
+.faq-questions details:nth-child(3) {
+  transition-delay: 600ms;
+}
+
+.faq-questions details:nth-child(4) {
+  transition-delay: 800ms;
+}
+
+.faq-questions details:nth-child(5) {
+  transition-delay: 1000ms;
+}
+
+.faq-questions details:nth-child(6) {
+  transition-delay: 1200ms;
+}
+
+.faq-questions details:nth-child(7) {
+  transition-delay: 1400ms;
+}
+
+.faq-questions details:nth-child(8) {
+  transition-delay: 1600ms;
+}
+
+.faq-questions details:nth-child(9) {
+  transition-delay: 2000ms;
+}
+
+/* APPOINTMENT FORM SECTION transition */
+.appointment-head {
+  transition-delay: 200ms;
+}
+
+.appointment-form {
+  transition-delay: 400ms;
+}
+
+.appointment-img-con {
+  transition-delay: 800ms;
+}
+
+/* What makes us different transition */
+.diff-sub-one div:nth-child(1) {
+  transition-delay: 300ms;
+}
+
+.diff-sub-one div:nth-child(2) {
+  transition-delay: 900ms;
+}
+
+.diff-sub-two div:nth-child(1) {
+  transition-delay: 600ms;
+}
+
+.diff-sub-two div:nth-child(2) {
+  transition-delay: 1200ms;
+}
+
+/* full potential transition */
+.web-main-con div:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.web-main-con div:nth-child(2) {
+  transition-delay: 400ms;
+}
+
+.web-desc h2:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.web-desc p:nth-child(1) {
+  transition-delay: 600ms;
+}
+
+.web-desc h2:nth-child(2) {
+  transition-delay: 600ms;
+}
+
+.web-desc p:nth-child(2) {
+  transition-delay: 600ms;
+}
+
+.web-desc button:nth-child(2) {
+  transition-delay: 1000ms;
+}
+
+/* transition service */
+.head-container {
+  transition-delay: 200ms;
+}
+
+.div-btn {
+  transition-delay: 300ms;
+}
+
+.web-container {
+  transition-delay: 500ms;
+}
+
+.software-container {
+  transition-delay: 1100ms;
+}
+
+.mobile-app-container {
+  transition-delay: 800ms;
+}
+
+.cloud-container {
+  transition-delay: 1400ms;
+}
+
+/* HERO Transition */
+.sub-main-one {
+  transition-delay: 300ms;
+}
+
+.sub-main-three {
+  transition-delay: 600ms;
+}
+
+.sub-main-four {
+  transition-delay: 900ms;
+}
+
+.phone-img {
+  transition-delay: 1200ms;
+}
+
+.sub-main-six {
+  transition-delay: 2000ms;
 }/*# sourceMappingURL=main.css.map */
