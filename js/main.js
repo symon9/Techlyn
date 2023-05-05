@@ -2,31 +2,31 @@
 const reviews = [
   {
     id: 1,
-    name: 'susan smith',
-    job: 'web developer',
+    name: 'Susan Smith',
+    job: 'Web Developer',
     img: 'https://images2.imgbox.com/e0/57/qI5bbwvg_o.jpeg',
-    text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+    text: "I had some issues with my website and reached out to this tech company for support. They were extremely helpful and patient in resolving my problem, and I would definitely use their services again.",
   },
   {
     id: 2,
-    name: 'anna johnson',
-    job: 'web designer',
+    name: 'Anna Johnson',
+    job: 'Web Designer',
     img: 'https://images2.imgbox.com/2e/6e/JAMvTZ56_o.jpeg',
-    text: 'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
+    text: 'I have been using this tech company for several years now to manage my IT infrastructure and they have been phenomenal. Their team is always responsive and knowledgeable, and they have helped my business run smoothly.',
   },
   {
     id: 3,
-    name: 'peter jones',
-    job: 'intern',
+    name: 'Peter Jones',
+    job: 'Intern',
     img: 'https://images2.imgbox.com/56/88/oJvFN3l5_o.jpeg',
-    text: 'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
+    text: 'I hired this tech company for a custom software development project and was extremely pleased with the final product. Their team was great to work with and they delivered exactly what I was hoping for.',
   },
   {
     id: 4,
-    name: 'bill anderson',
-    job: 'the boss',
+    name: 'Bill Anderson',
+    job: 'Software Engineer',
     img: 'https://images2.imgbox.com/8b/1c/vwWNTsCd_o.jpeg',
-    text: 'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
+    text: 'If you are looking for a reliable and efficient tech company, look no further than ABC tech. They offer top-notch services that have completely transformed the way my business operates. From web design to cyber security, they have it all covered! ',
   },
 ];
 // select items
