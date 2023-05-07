@@ -736,7 +736,7 @@ body::-webkit-scrollbar-thumb {
 
 /* FAQ Section */
 .faq {
-  background-color: #ffffff;
+  background-color: aliceblue;
   display: flex;
   justify-content: center;
 }
@@ -927,7 +927,7 @@ body::-webkit-scrollbar-thumb {
 
 /*LOGO clouds */
 .clouds .clouds-con {
-  background-color: #FFF;
+  background-color: aliceblue;
   padding: 3rem;
   color: #1a1a1a;
   display: flex;
@@ -962,4 +962,105 @@ body::-webkit-scrollbar-thumb {
 
 .cloud-imgs img:nth-child(5) {
   transition-delay: 2000ms;
+}
+
+/* Contact */
+.contactt {
+  background-color: aliceblue;
+  color: #000;
+  padding: 0rem;
+  display: flex;
+  justify-content: center;
+}
+.contactt .contact-container .contact-container-main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.contactt .contact-container .contact-container-main .contact-one {
+  width: 500px;
+  margin: 4rem;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us h1 {
+  font-size: 4rem;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details {
+  display: flex;
+  border: 2px solid #000;
+  margin-top: 3rem;
+  padding: 3rem 1.5rem 2rem 1.5rem;
+  justify-content: space-between;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-form form input {
+  padding: 12px 12px 12px 0;
+  margin: 1rem 0;
+  font-size: 17px;
+  outline: none;
+  border-width: 0;
+  color: #000;
+  background-color: aliceblue;
+  border-bottom: 2px solid #000;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-form form input::-moz-placeholder {
+  color: #000;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-form form input::placeholder {
+  color: #000;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-form form .name {
+  margin-top: 0;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-form form button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  border-width: 0;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  font-size: 16.5px;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-form form button:hover {
+  color: #000;
+  background-color: aliceblue;
+  outline: 2px solid #000;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-email h3 {
+  padding-bottom: 5px;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-email a {
+  text-decoration: none;
+  color: #000;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-based {
+  margin-top: 4rem;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-based h3 {
+  padding-bottom: 5px;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-socials {
+  margin-top: 5rem;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-socials a i:hover {
+  color: #ffa500;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-socials .fa-instagram, .contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-socials .fa-twitter, .contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-socials .fa-whatsapp {
+  padding: 0 8px;
+  color: #000;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details .contact-details .contact-details-socials .fa-facebook {
+  color: #000;
+  padding-right: 8px;
+}
+.contactt .contact-container .contact-container-main .contact-two {
+  margin: 4rem;
+  max-width: 500px;
+}
+
+.map-container map iframe {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2509803922);
+  min-height: 520px;
 }/*# sourceMappingURL=main.css.map */
