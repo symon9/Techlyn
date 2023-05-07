@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* 
   WIDTH OF THE PAGE: 1408PX /  1349px;
   */
-  scroll-behavior: smooth;
   color: #fff;
   background-color: #000;
   font-family: "Roboto", sans-serif;
@@ -982,6 +985,21 @@ body::-webkit-scrollbar-thumb {
 }
 .contactt .contact-container .contact-container-main .contact-one .container-contact-us h1 {
   font-size: 4rem;
+  position: relative;
+  color: aliceblue;
+  max-width: 340px;
+}
+.contactt .contact-container .contact-container-main .contact-one .container-contact-us h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #000;
+  border-right: 3px solid #000;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
 }
 .contactt .contact-container .contact-container-main .contact-one .container-contact-us .contact-form-and-details {
   display: flex;
@@ -1063,4 +1081,13 @@ body::-webkit-scrollbar-thumb {
 .map-container map iframe {
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2509803922);
   min-height: 520px;
+}
+
+@keyframes animate {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  70%, 90% {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
