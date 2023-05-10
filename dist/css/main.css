@@ -24,6 +24,7 @@ body {
   background-color: #000000;
 }
 
+/* ==========NAV BEGINS========== */
 nav {
   position: sticky;
   top: 0;
@@ -182,43 +183,7 @@ nav div .nav .ul-list li:hover div {
   padding: 21px 8px;
 }
 
-/* SOCIAL */
-.social {
-  margin: 1rem 0 0 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  transform: translateY(50%);
-  position: fixed;
-  right: 12px;
-  z-index: 1000;
-}
-.social .social-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.social .social-container a {
-  color: #ffa500;
-}
-.social .social-container a:hover {
-  color: #FFF;
-  border-radius: 10px;
-  transform: scale(1.2, 1.1);
-}
-.social .social-container .line {
-  width: 3px;
-  height: 50px;
-  background-color: #ffa500;
-  margin-top: 2px;
-}
-
-.fa-magnifying-glass {
-  cursor: pointer;
-}
-
-/* hero */
+/* ==========HERO BEGINS==========*/
 .main .main-container {
   padding: 2rem 0;
   display: flex;
@@ -343,7 +308,7 @@ nav div .nav .ul-list li:hover div {
   top: -150px;
 }
 
-/* input and social */
+/* ==========INPUT and PHONE HERO========== */
 .sub-main-five .input-btn {
   margin: 5px;
   display: flex;
@@ -381,7 +346,7 @@ nav div .nav .ul-list li:hover div {
   background-color: #fff;
 }
 
-/* about-sub-menu */
+/* ==========ABOUT SUB MENU========== */
 .about-sub-menu {
   width: 170px;
   padding: 10px;
@@ -404,7 +369,7 @@ nav div .nav .ul-list li:hover div {
   position: relative;
 }
 
-/* SERVICES */
+/* ==========SERVICES BEGINS ========== */
 .services {
   color: #000;
   background-color: #ffa500;
@@ -519,7 +484,7 @@ nav div .nav .ul-list li:hover div {
   color: #252525;
 }
 
-/* BEGIN WHY WE ARE DIFFERENT  */
+/* ==========BEGIN WHY WE ARE DIFFERENT==========  */
 .different .diff-con {
   padding: 3rem;
   color: #FFF;
@@ -592,8 +557,8 @@ nav div .nav .ul-list li:hover div {
   color: #838383;
 }
 
-/* END WHY WE ARE DIFFERENT  */
-/* Acheive your website's full potential */
+/* ==========END WHY WE ARE DIFFERENT==========  */
+/* ========== Begins Acheive your website's full potential========== */
 .acheive-ur-web .web-container {
   background-color: #FFF;
   color: #000;
@@ -642,7 +607,7 @@ nav div .nav .ul-list li:hover div {
   color: #fff;
 }
 
-/* SCROLL BAR EDITED */
+/* ==========SCROLL BAR EDITED========== */
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -660,7 +625,7 @@ body::-webkit-scrollbar-thumb {
     scrollbar-width: thin;
     scrollbar-color: black transparent;
 } */
-/* appointment form */
+/* ==========appointment form========== */
 .appointment-container .appointment-main-con {
   padding: 3rem;
   background-color: #ffa500;
@@ -737,7 +702,7 @@ body::-webkit-scrollbar-thumb {
   width: 500px;
 }
 
-/* FAQ Section */
+/* ==========FAQ SECTION BEGINS========== */
 .faq {
   background-color: aliceblue;
   display: flex;
@@ -772,6 +737,7 @@ body::-webkit-scrollbar-thumb {
   padding: 15px;
 }
 
+/* ==========FAQ SECTION ENDS========== */
 /* transition on element */
 .hidden {
   opacity: 0;
@@ -786,7 +752,7 @@ body::-webkit-scrollbar-thumb {
   transform: translateX(0);
 }
 
-/* faq transition */
+/* ==========faq transition========== */
 .faq-questions details:nth-child(1) {
   transition-delay: 200ms;
 }
@@ -823,7 +789,7 @@ body::-webkit-scrollbar-thumb {
   transition-delay: 2000ms;
 }
 
-/* APPOINTMENT FORM SECTION transition */
+/* ==========APPOINTMENT FORM SECTION transition========== */
 .appointment-head {
   transition-delay: 200ms;
 }
@@ -836,7 +802,7 @@ body::-webkit-scrollbar-thumb {
   transition-delay: 800ms;
 }
 
-/* What makes us different transition */
+/* ==========What makes us different transition========== */
 .diff-sub-one div:nth-child(1) {
   transition-delay: 300ms;
 }
@@ -853,7 +819,7 @@ body::-webkit-scrollbar-thumb {
   transition-delay: 1200ms;
 }
 
-/* full potential transition */
+/* ==========full potential transition========== */
 .web-main-con div:nth-child(1) {
   transition-delay: 200ms;
 }
@@ -882,7 +848,7 @@ body::-webkit-scrollbar-thumb {
   transition-delay: 1000ms;
 }
 
-/* transition service */
+/* ==========transition service========== */
 .head-container {
   transition-delay: 200ms;
 }
@@ -907,7 +873,7 @@ body::-webkit-scrollbar-thumb {
   transition-delay: 1400ms;
 }
 
-/* HERO Transition */
+/* ==========HERO Transition========== */
 .sub-main-one {
   transition-delay: 300ms;
 }
@@ -928,7 +894,7 @@ body::-webkit-scrollbar-thumb {
   transition-delay: 2000ms;
 }
 
-/*LOGO clouds */
+/*==========Trusted by clouds Logo========== */
 .clouds .clouds-con {
   background-color: aliceblue;
   padding: 3rem;
@@ -967,7 +933,7 @@ body::-webkit-scrollbar-thumb {
   transition-delay: 2000ms;
 }
 
-/* Contact */
+/* ==========CONTACT US AND MAP========== */
 .contactt {
   background-color: aliceblue;
   color: #000;
@@ -1083,6 +1049,7 @@ body::-webkit-scrollbar-thumb {
   min-height: 520px;
 }
 
+/* CONTACT US ANIMATION */
 @keyframes animate {
   0%, 10%, 100% {
     width: 0;
@@ -1090,4 +1057,154 @@ body::-webkit-scrollbar-thumb {
   70%, 90% {
     width: 100%;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/* ===============CONTACT US AND MAP ENDS=============== */
+/* ================FOOTER BEGINS================ */
+footer .footer {
+  background-image: url("/img/we're-open.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+footer .footer .footer-container {
+  background-color: rgba(10, 10, 10, 0.9607843137);
+  padding: 4.4rem 4.4rem 1rem 4.4rem;
+  font-size: 14px;
+  word-spacing: 2px;
+}
+footer .footer .footer-container .footer-con-one {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer .footer-container .footer-con-one .footer-about {
+  max-width: 250px;
+}
+footer .footer .footer-container .footer-con-one .footer-about h2 {
+  padding: 8px 8px 8px 0; /* 
+border-bottom: 3px solid #ffa500; */
+  max-width: 100px;
+}
+footer .footer .footer-container .footer-con-one .footer-about h2 span {
+  color: #ffa500;
+}
+footer .footer .footer-container .footer-con-one .footer-about p {
+  padding: 28px 28px 30px 0;
+}
+footer .footer .footer-container .footer-con-one .footer-links {
+  width: 250px;
+}
+footer .footer .footer-container .footer-con-one .footer-links h2 {
+  padding: 8px 8px 8px 0;
+}
+footer .footer .footer-container .footer-con-one .footer-links div {
+  display: flex;
+}
+footer .footer .footer-container .footer-con-one .footer-links div :nth-child(2) {
+  margin-right: 4rem;
+}
+footer .footer .footer-container .footer-con-one .footer-links div ul {
+  padding-top: 20px;
+}
+footer .footer .footer-container .footer-con-one .footer-links div ul li {
+  list-style: none;
+  padding: 9px 0;
+}
+footer .footer .footer-container .footer-con-one .footer-links div ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer .footer-container .footer-con-one .footer-links div ul li a:hover {
+  color: #ffa500;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter {
+  max-width: 250px;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter h2 {
+  padding: 8px 8px 8px 0;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter div {
+  margin-top: 20px;
+  display: flex;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter div i {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter form input {
+  outline: none;
+  padding: 12px;
+  border-width: 0;
+  border-radius: 20px;
+  width: 80%;
+  margin-top: 20px;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter form p button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #ffa500;
+  border-width: 0;
+  width: 50%;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter form p button:hover {
+  background-color: #fff;
+  color: #ffa500;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch {
+  max-width: 250px;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch h2 {
+  padding: 8px 8px 8px 0;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch .footer-transform {
+  padding-top: 20px;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch p {
+  padding: 10px 10px 10px 0;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch p i {
+  padding-right: 10px;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch p a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch p a:hover {
+  color: #ffa500;
+}
+footer .footer .footer-container .footer-con-two {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+footer .footer .footer-container .footer-con-two .footer-back-to-top a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer .footer-container .footer-con-two .footer-back-to-top a:hover {
+  color: #ffa500;
+}
+footer .footer .footer-container .footer-con-two .footer-social .footer-socials ul {
+  display: flex;
+}
+footer .footer .footer-container .footer-con-two .footer-social .footer-socials ul li {
+  list-style: none;
+  padding-left: 15px;
+}
+footer .footer .footer-container .footer-con-two .footer-social .footer-socials ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer .footer-container .footer-con-two .footer-social .footer-socials ul li a:hover {
+  color: #ffa500;
+}
+
+.fa-phone, .fa-map-marker, .fa-envelope {
+  color: aliceblue;
+}
+
+/* ================FOOTER ENDS================ *//*# sourceMappingURL=main.css.map */

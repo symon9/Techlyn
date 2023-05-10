@@ -18,6 +18,7 @@ body{
 .div-container{
     background-color: #000000;
 }
+/* ==========NAV BEGINS========== */
 nav{
     position: sticky;
     top: 0;
@@ -209,44 +210,8 @@ nav div .nav .ul-list li:hover div {
     padding: 21px 8px;
 }
 
-/* SOCIAL */
 
-.social{
-    margin: 1rem 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    transform: translateY(50%);
-    position: fixed;
-    right: 12px;
-    z-index: 1000;
-    .social-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        a{
-            color: #ffa500;
-        }
-        a:hover{
-            color: #FFF;
-            border-radius: 10px;
-            transform: scale(1.2, 1.1);
-        }
-        .line{
-            width: 3px;
-            height: 50px;
-            background-color: #ffa500;
-            margin-top: 2px;
-        }
-    }
-}
-.fa-magnifying-glass{
-    cursor: pointer;
-}
-
-/* hero */
+/* ==========HERO BEGINS==========*/
 .main{
     .main-container{
         padding: 2rem 0;
@@ -379,7 +344,7 @@ nav div .nav .ul-list li:hover div {
     }
 }
 
-/* input and social */
+/* ==========INPUT and PHONE HERO========== */
 .sub-main-five{
     .input-btn{
         margin: 5px;
@@ -420,7 +385,7 @@ nav div .nav .ul-list li:hover div {
     }
 }
 
-/* about-sub-menu */
+/* ==========ABOUT SUB MENU========== */
 .about-sub-menu{
                                 width: 170px;
                                 padding: 10px;
@@ -444,7 +409,7 @@ nav div .nav .ul-list li:hover div {
     position: relative;
 }
 
-/* SERVICES */
+/* ==========SERVICES BEGINS ========== */
 .services{
     color: #000;
     background-color: #ffa500;
@@ -564,7 +529,7 @@ nav div .nav .ul-list li:hover div {
     color: #252525;
 }
 
-/* BEGIN WHY WE ARE DIFFERENT  */
+/* ==========BEGIN WHY WE ARE DIFFERENT==========  */
 .different{
 
     .diff-con{
@@ -654,9 +619,9 @@ nav div .nav .ul-list li:hover div {
 .diff-desc-one p:hover, .diff-desc-two p:hover{
     color: #838383;
 }
-/* END WHY WE ARE DIFFERENT  */
+/* ==========END WHY WE ARE DIFFERENT==========  */
 
-/* Acheive your website's full potential */
+/* ========== Begins Acheive your website's full potential========== */
 .acheive-ur-web{
     .web-container{
         background-color: #FFF;
@@ -710,7 +675,7 @@ nav div .nav .ul-list li:hover div {
     }
 }
 
-/* SCROLL BAR EDITED */
+/* ==========SCROLL BAR EDITED========== */
 body::-webkit-scrollbar{
     width: 5px;
 }
@@ -726,7 +691,7 @@ body::-webkit-scrollbar-thumb{
     scrollbar-color: black transparent;
 } */
 
-/* appointment form */
+/* ==========appointment form========== */
 .appointment-container{
     .appointment-main-con{
         padding: 3rem;
@@ -808,7 +773,7 @@ body::-webkit-scrollbar-thumb{
     }
 }
 
-/* FAQ Section */
+/* ==========FAQ SECTION BEGINS========== */
 .faq{
     background-color: aliceblue;
     display: flex;
@@ -849,6 +814,7 @@ body::-webkit-scrollbar-thumb{
         }
     }
 }
+/* ==========FAQ SECTION ENDS========== */
 
 /* transition on element */
 .hidden{
@@ -864,7 +830,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 
-/* faq transition */
+/* ==========faq transition========== */
 .faq-questions details:nth-child(1){
     transition-delay: 200ms;
 }
@@ -893,7 +859,7 @@ body::-webkit-scrollbar-thumb{
     transition-delay: 2000ms;
 }
 
- /* APPOINTMENT FORM SECTION transition */
+ /* ==========APPOINTMENT FORM SECTION transition========== */
 .appointment-head{
     transition-delay: 200ms;
 }
@@ -904,7 +870,7 @@ body::-webkit-scrollbar-thumb{
     transition-delay: 800ms ;
 }
 
-/* What makes us different transition */
+/* ==========What makes us different transition========== */
 
 .diff-sub-one div:nth-child(1){
     transition-delay: 300ms;
@@ -919,7 +885,7 @@ body::-webkit-scrollbar-thumb{
     transition-delay: 1200ms;
 }
 
-/* full potential transition */
+/* ==========full potential transition========== */
 .web-main-con div:nth-child(1){
     transition-delay: 200ms;
 }
@@ -943,7 +909,7 @@ body::-webkit-scrollbar-thumb{
     transition-delay: 1000ms;
 }
 
-/* transition service */
+/* ==========transition service========== */
 .head-container{
     transition-delay: 200ms;
 }
@@ -963,7 +929,7 @@ body::-webkit-scrollbar-thumb{
     transition-delay: 1400ms;
 }
 
-/* HERO Transition */
+/* ==========HERO Transition========== */
 .sub-main-one{
     transition-delay: 300ms;
 }
@@ -981,7 +947,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 
-/*LOGO clouds */
+/*==========Trusted by clouds Logo========== */
 .clouds{
     .clouds-con{
         background-color: aliceblue;
@@ -1020,16 +986,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 
-
-
-
-
-
-
-
-
-
-/* Contact */
+/* ==========CONTACT US AND MAP========== */
 .contactt{
     background-color: aliceblue;
     color: #000;
@@ -1157,6 +1114,7 @@ body::-webkit-scrollbar-thumb{
     box-shadow: 1px 1px 15px #00000040;
     min-height: 520px;
 }
+/* CONTACT US ANIMATION */
 @keyframes animate {
     0%,10%,100%{
         width: 0;
@@ -1165,3 +1123,173 @@ body::-webkit-scrollbar-thumb{
         width: 100%;
     }
 }
+
+/* ===============CONTACT US AND MAP ENDS=============== */
+
+/* ================FOOTER BEGINS================ */
+footer{
+    
+    .footer{
+        background-image: url('/img/we\'re-open.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        
+        .footer-container{
+            background-color: #0a0a0af5;
+            padding: 4.4rem 4.4rem 1rem 4.4rem;
+            font-size: 14px;
+            word-spacing: 2px;
+            
+            .footer-con-one{
+                display: flex;
+                justify-content: space-between;
+
+                .footer-about{
+                    max-width: 250px;
+                    h2{
+                        padding: 8px 8px 8px 0;/* 
+                        border-bottom: 3px solid #ffa500; */
+                        max-width: 100px;
+                            span{
+                                color: #ffa500;
+                            }
+                    }
+                    p{
+                        padding: 28px 28px 30px 0;
+                    }
+                }
+                .footer-links{
+                    width: 250px;
+                    h2{
+                        padding: 8px 8px 8px 0;
+                    }
+                    div{
+                        display: flex;
+                        :nth-child(2){
+                            margin-right: 4rem;
+                        }
+                        ul{
+                            padding-top: 20px;
+                            li{
+                                list-style: none;
+                                padding: 9px 0;
+                                    a{
+                                        text-decoration: none;
+                                        color: #fff;
+                                    }
+                                    a:hover{
+                                        color: #ffa500;
+                                    }
+                            }
+                        }
+                    }
+                    
+                }
+                .footer-newsletter{
+                    max-width: 250px;
+                    h2{
+                        padding: 8px 8px 8px 0;
+                    }
+                    div{
+                        margin-top: 20px;
+                        display: flex;
+                        i{
+                            margin-top: 10px;
+                            margin-right: 5px;
+                        }
+                    }
+                    form{
+                        input{
+                            outline: none;
+                            padding: 12px;
+                            border-width: 0;
+                            border-radius: 20px;
+                            width: 80%;
+                            margin-top: 20px;
+                        }
+                        p{
+                            button{
+                                margin-top: 20px;
+                                padding: 10px;
+                                border-radius: 20px;
+                                background-color: #ffa500;
+                                border-width: 0;
+                                width: 50%;
+                                letter-spacing: 2px;
+                                color: #fff;
+                                cursor: pointer;
+                                font-size: 16px;
+                            }
+                            button:hover{
+                                background-color: #fff;
+                                color: #ffa500;
+                            }
+                        }
+                    }
+                }
+                .footer-in-touch{
+                    max-width: 250px;
+                    h2{
+                        padding: 8px 8px 8px 0;
+                    }
+                    .footer-transform{
+                        padding-top: 20px;
+                    }
+                    p{
+                        padding: 10px 10px 10px 0;
+                            i{
+                                padding-right: 10px;
+                            }
+                            a{
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                            a:hover{
+                                color: #ffa500;
+                            }
+                    }
+                }
+            }
+            .footer-con-two{
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem 0;
+
+                .footer-back-to-top{
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                    a:hover{
+                        color: #ffa500;
+                    }
+                }
+
+                .footer-social{
+                    .footer-socials{
+                        ul{
+                            display: flex;
+
+                            li{
+                                list-style: none;
+                                padding-left: 15px;
+                                a{
+                                    text-decoration: none;
+                                    color: #fff;
+                                }
+                                a:hover{
+                                    color: #ffa500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.fa-phone, .fa-map-marker, .fa-envelope{
+    color: aliceblue;
+}
+/* ================FOOTER ENDS================ */
