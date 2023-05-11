@@ -18,3 +18,16 @@ const observer = new IntersectionObserver( (entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+
+/* nav */
+
+function openNav() {
+    document.getElementById("mySidenav").style.display = "flex";
+    /* document.getElementById("contain").style.display = "none"; */ 
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+  }
+  

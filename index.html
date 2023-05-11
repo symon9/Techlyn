@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Aurthor" content="Simon Emmanuel">
-    <meta name="keywords" content=" Web Development, Full Stack Web Development, Frontend Web Development, Backend Web Development, Mobile Web Development, CMS Development, E-Commerce Web Development, Mobile App Development, iOS App Development, Andriod App Development, Cross-Platform App Development, Naive App Development, API Development, Push Notification Integration, Software Development, Enterprise Software Development, Custom Software Development, Applications Modernisation, System Integration, DevOps & Automation, Quality Assurance (QA) & Testing, Cloud Services, Cloud Consulting and strategy, Cloud Migration, Cloud App Development & Deployment, Cloud Storage & Back-up, Cloud Security & Compliance, Cloud Hosting & Management. TECHLYN">
+    <meta name="keywords" content=" Web Development, Full Stack Web Development, Frontend Web Development, Backend Web Development, Mobile Web Development, CMS Development, E-Commerce Web Development, Mobile App Development, iOS App Development, Andriod App Development, Cross-Platform App Development, Naive App Development, API Development, Push Notification Integration, Software Development, Enterprise Software Development, Custom Software Development, Applications Modernisation, System Integration, DevOps & Automation, Quality Assurance (QA) & Testing, Cloud Services, Cloud Consulting and strategy, Cloud Migration, Cloud App Development & Deployment, Cloud Storage & Back-up, Cloud Security & Compliance, Cloud Hosting & Management. TECHLYN Kano Nigeria">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Our Company offers full service, web service customized web development and design solutions for e-commerce, business applications and mobile platforms for businesses of all sizes and our team of experts made it possible.">
     <link rel="stylesheet" href="./dist/css/main.css">
-    <link rel="stylesheet" href="./all.min.css">
-    <link rel="stylesheet" href="./review.css">
+    <link rel="stylesheet" href="./dist/css/all.min.css">
+    <link rel="stylesheet" href="./dist/css/review.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -25,9 +25,20 @@
     
     <!-- TOP BAR NAV BEGINS-->
     <nav class="nav-bar">
-        <div class="div-container">
+        <div id="contain">
+            <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <div class="logoo" style="font-size: 17px;">
+                <h2>Tech<span style="color: orange;">lyn.</span></h2>
+            </div>   
+        </div>
+        <div class="div-container" id="mySidenav">
             <div class="logo">
                 <h2>Tech<span>lyn.</span></h2>
+
+                <div class="cancel" class="closebtn" onclick="closeNav()">
+                    <div class="up"></div>
+                    <div class="down"></div>
+                </div>
             </div>
             <div class="nav">
                 <ul class="ul-list">
@@ -98,10 +109,12 @@
                     <input type="search" class="input" placeholder="Search for a service..." name="search" id="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <button>Sign up <i class="fa-solid fa-user"></i></button>
-                <button>Log in <i class="fa-solid fa-right-to-bracket"></i></button>
+                <a class="sign-up" href="./signup.html">Sign up <i class="fa-solid fa-user"></i></a>
+                <a class="login" href="./login.html">Log in <i class="fa-solid fa-right-to-bracket"></i></a>
             </div>
         </div>
+
+        
         <hr>
     </nav>
     <!-- TOP BAR NAV ENDS-->
