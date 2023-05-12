@@ -1849,6 +1849,99 @@ nav div .nav .ul-list li:hover div {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .acheive-ur-web .web-container {
+        padding: 1rem;
+    }
+    .acheive-ur-web .web-container .web-main-con{
+        flex-direction: column;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc {
+        width: auto;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc h2 {
+        font-size: 20px;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc p {
+        padding: 0px 0;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-size: 11.5px;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc h2 span {
+        font-size: 20px;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-img {
+        background-color: rgb(0, 255, 0);
+        width: 240px;
+        height: auto;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-img video{
+        background-color: rgb(0, 255, 0);
+        width: 240px;
+        height: auto;
+        display: block;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc button {
+        margin: 12px 0;
+        padding: 6px 0;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc button a {
+        padding: 6px;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .acheive-ur-web .web-container {
+        padding: 1rem;
+    }
+    .acheive-ur-web .web-container .web-main-con{
+        flex-direction: column;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc {
+        width: auto;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc h2 {
+        font-size: 20px;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc p {
+        padding: 0px 0;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-size: 11.5px;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc h2 span {
+        font-size: 20px;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-img {
+        background-color: rgb(0, 255, 0);
+        width: 240px;
+        height: auto;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-img video{
+        background-color: rgb(0, 255, 0);
+        width: 240px;
+        height: auto;
+        display: block;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc button {
+        margin: 12px 0;
+        padding: 6px 0;
+    }
+    .acheive-ur-web .web-container .web-main-con .web-desc button a {
+        padding: 6px;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .acheive-ur-web .web-container .web-main-con{
+        flex-direction: column;
+    }
+}
+
 /* ==========SCROLL BAR EDITED========== */
 body::-webkit-scrollbar{
     width: 5px;
