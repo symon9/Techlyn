@@ -1793,6 +1793,60 @@ nav div .nav .ul-list li:hover div {
 .diff-desc-one p:hover, .diff-desc-two p:hover{
     color: #838383;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .different .diff-con {
+        padding: 1rem;
+      }
+    .different .diff-con .diff-head {
+        font-size: 13px;
+      }
+      .different .diff-con .different-main .diff-sub-one .diff-desc-one h3 {
+        font-size: 20px;
+    }
+    .different .diff-con .different-main .diff-sub-one .diff-desc-two h3 {
+        font-size: 20px;
+    }
+    .different .diff-con .different-main .diff-sub-two .diff-desc-one h3 {
+        font-size: 20px;
+      }
+      .different .diff-con .different-main .diff-sub-two .diff-desc-two h3 {
+        font-size: 20px;
+      }
+      .different .diff-con .different-main .diff-sub-one .diff-desc-one h3 span {
+        font-size: 20px;
+    }
+      .different .diff-con .different-main .diff-sub-one .diff-desc-two h3 span {
+        font-size: 20px;
+    }
+    .different .diff-con .different-main .diff-sub-two .diff-desc-one h3 span {
+        font-size: 20px;
+    }
+    .different .diff-con .different-main .diff-sub-two .diff-desc-two h3 span {
+        font-size: 20px;
+    }
+    .different .diff-con .different-main .diff-sub-one .diff-desc-one p {
+        width: auto;
+      }
+      .different .diff-con .different-main .diff-sub-one .diff-desc-two p {
+        width: auto;
+      }
+      .different .diff-con .different-main .diff-sub-two .diff-desc-one p {
+        width: auto;
+      }
+      .different .diff-con .different-main .diff-sub-two .diff-desc-two p {
+        width: auto;
+      }
+
+      .diff-desc-one p, .diff-desc-two p {
+        color: #838383;
+      }
+      
+      .diff-desc-one p:hover, .diff-desc-two p:hover {
+        color: #fff;
+      }
+}
 /* ==========END WHY WE ARE DIFFERENT==========  */
 
 /* ========== Begins Acheive your website's full potential========== */
@@ -2038,6 +2092,122 @@ body::-webkit-scrollbar-thumb{
             }
         }
     }
+}
+@media screen and (max-width: 700px) {
+    .appointment-container .appointment-main-con {
+        padding: 1rem;
+        flex-direction: column;
+      }
+      .appointment-container .appointment-main-con .appointment-head h2 {
+        font-size: 20px;
+        width: auto;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img {
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con {
+        width: 300px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con img{
+        width: 280px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-form {
+        padding: 10px;
+        width: auto;
+    }
+    .appointment-container .appointment-main-con .appointment-form-img .appointment-form form h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (width: 768px) {
+    .appointment-container .appointment-main-con {
+        padding: 1rem;
+        flex-direction: column;
+      }
+      .appointment-container .appointment-main-con .appointment-head h2 {
+        font-size: 20px;
+        width: auto;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img {
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con {
+        width: 300px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con img{
+        width: 280px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-form {
+        padding: 10px;
+        width: auto;
+    }
+    .appointment-container .appointment-main-con .appointment-form-img .appointment-form form h3 {
+        font-size: 20px;
+    }
+    .appointment-container .appointment-main-con .appointment-form-img {
+        flex-direction: row;
+        gap: 1rem;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con img{
+        width: 380px;
+      }
+}
+@media screen and (width: 820px) {
+    .appointment-container .appointment-main-con {
+        padding: 1rem;
+        flex-direction: column;
+      }
+      .appointment-container .appointment-main-con .appointment-head h2 {
+        font-size: 20px;
+        width: auto;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img {
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con {
+        width: 350px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con img{
+        width: 280px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-form {
+        padding: 10px;
+        width: auto;
+    }
+    .appointment-container .appointment-main-con .appointment-form-img .appointment-form form h3 {
+        font-size: 20px;
+    }
+    .appointment-container .appointment-main-con .appointment-form-img {
+        flex-direction: row;
+        gap: 1rem;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-img-con img{
+        width: 380px;
+      }
+}
+
+@media screen and (width: 912px) {
+    .appointment-container .appointment-main-con .appointment-head h2 {
+        font-size: 35px;
+        text-align: right;
+        width: 800px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-form {
+        width: 330px;
+      }
+}
+@media screen and (width: 1024px) {
+    .appointment-container .appointment-main-con .appointment-head h2 {
+        font-size: 35px;
+        text-align: right;
+        width: 900px;
+      }
+      .appointment-container .appointment-main-con .appointment-form-img .appointment-form {
+        width: 400px;
+      }
 }
 
 /* ==========FAQ SECTION BEGINS========== */
