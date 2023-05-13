@@ -2251,6 +2251,23 @@ body::-webkit-scrollbar-thumb{
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .faq .faq-container {
+        padding: 1.3rem;
+      }
+      .faq .faq-container .faq-head h2 {
+        font-size: 23px;
+    }
+    .faq .faq-container .faq-head p {
+        font-size: 13px;
+    }
+}
+@media screen and (width: 768px) {
+    .faq .faq-container .faq-head h2 {
+        font-size: 33px;
+    }
+}
 /* ==========FAQ SECTION ENDS========== */
 
 /* transition on element */
@@ -2401,6 +2418,17 @@ body::-webkit-scrollbar-thumb{
             }
         }
     }
+}
+@media screen and (max-width: 500px) {
+    .clouds .clouds-con {
+        padding: 1.3rem;
+    }
+    .clouds .clouds-con .clouds-sm-con h2 {
+        font-size: 1rem;
+      }
+      .cloud-imgs{
+        text-align: center;
+      }
 }
 
 .cloud-img{
