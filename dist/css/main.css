@@ -2297,6 +2297,18 @@ body::-webkit-scrollbar-thumb {
   .cloud-imgs {
     text-align: center;
   }
+  .cloud-imgs .cloud-img {
+    width: 100px;
+    height: auto;
+    margin: 0.4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cloud-imgs .cloud-img {
+    width: 70px;
+    height: auto;
+    margin: 0.4rem;
+  }
 }
 .cloud-img {
   margin: 1.3rem;
@@ -2771,12 +2783,15 @@ footer .footer .footer-container .footer-con-one .footer-about {
   max-width: 250px;
 }
 footer .footer .footer-container .footer-con-one .footer-about h2 {
-  padding: 8px 8px 8px 0; /* 
-border-bottom: 3px solid #ffa500; */
-  max-width: 100px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #ffa500;
+  display: inline-block;
 }
 footer .footer .footer-container .footer-con-one .footer-about h2 span {
   color: #ffa500;
+}
+footer .footer .footer-container .footer-con-one .footer-about hr {
+  margin-top: -2px;
 }
 footer .footer .footer-container .footer-con-one .footer-about p {
   padding: 28px 28px 30px 0;
@@ -2785,7 +2800,12 @@ footer .footer .footer-container .footer-con-one .footer-links {
   width: 250px;
 }
 footer .footer .footer-container .footer-con-one .footer-links h2 {
-  padding: 8px 8px 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #ffa500;
+  display: inline-block;
+}
+footer .footer .footer-container .footer-con-one .footer-links hr {
+  margin: -2px 0 0;
 }
 footer .footer .footer-container .footer-con-one .footer-links div {
   display: flex;
@@ -2811,7 +2831,12 @@ footer .footer .footer-container .footer-con-one .footer-newsletter {
   max-width: 250px;
 }
 footer .footer .footer-container .footer-con-one .footer-newsletter h2 {
-  padding: 8px 8px 8px 0;
+  padding-bottom: 8px;
+  display: inline-block;
+  border-bottom: 3px solid orange;
+}
+footer .footer .footer-container .footer-con-one .footer-newsletter hr {
+  margin-top: -2px;
 }
 footer .footer .footer-container .footer-con-one .footer-newsletter div {
   margin-top: 20px;
@@ -2849,7 +2874,12 @@ footer .footer .footer-container .footer-con-one .footer-in-touch {
   max-width: 250px;
 }
 footer .footer .footer-container .footer-con-one .footer-in-touch h2 {
-  padding: 8px 8px 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #ffa500;
+  display: inline-block;
+}
+footer .footer .footer-container .footer-con-one .footer-in-touch hr {
+  margin-top: -2px;
 }
 footer .footer .footer-container .footer-con-one .footer-in-touch .footer-transform {
   padding-top: 20px;
