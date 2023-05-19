@@ -32,10 +32,10 @@ body {
   border-top-right-radius: 0;
 }
 .btn{
-  background-color: rgb(214, 139, 0);
+  background-color: orange;
   letter-spacing: 1px;
   font-weight: 500;
 }
 .btn:hover{
-  background-color: orange;
+  background-color: rgb(214, 139, 0);
 }
